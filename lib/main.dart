@@ -13,3 +13,17 @@ runApp(const MyApp());
 class MyApp extends StatelessWidget {
 const MyApp({super.key});
 @override
+Widget build(BuildContext context) {
+return MaterialApp(
+debugShowCheckedModeBanner: false,
+title: 'Material App',
+initialRoute: "/",
+routes: {
+"/": (context) => const Home(),
+"/add":(context) => const AddCategoria(),
+"/edit":(context) => const EditCategoria(),
+"/about":(context) => AboutUs(),
+},
+);
+}
+}
