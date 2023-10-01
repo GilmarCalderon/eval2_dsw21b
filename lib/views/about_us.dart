@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 class AboutUs extends StatelessWidget {
 // Datos de ambos
-final String names = 'Kenia Chavarria\nMario Lopez'; // Nombres de ambos
+final String names = 'Gilmar Calderon\nJosue garcia'; // Nombres de ambos
 final String emails =
-'kenia.chavarria22@itca.edu.sv\nmario.lopez22@itca.edu.sv'; // Correos
-de ambos
+'gilmar.calderon22@itca.edu.sv\njosue.garcia22@itca.edu.sv'; // Correosde ambos
 @override
 Widget build(BuildContext context) {
 return Scaffold(

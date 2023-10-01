@@ -81,15 +81,13 @@ await addCategoria(id, nombre, estado).then((_) {
 Navigator.pop(context);
 });
 } else {
-// Puedes agregar manejo de error si los campos están
-vacíos
+// Puedes agregar manejo de error si los campos están vacíos
 showDialog(
 context: context,
 builder: (context) {
 return AlertDialog(
-title: Text('Campos Vacíos'),
-content: Text('Por favor, complete todos los
-campos.'),
+title: Text('Campos vacíos'),
+content: Text('Por favor, complete todos los campos.'),
 actions: [
 TextButton(
 onPressed: () {
