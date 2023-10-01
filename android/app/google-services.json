@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261198355539",
+    "project_id": "eval2-sis21b-526c3",
+    "storage_bucket": "eval2-sis21b-526c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261198355539:android:fafcf804b84deabb17faa6",
+        "android_client_info": {
+          "package_name": "com.gilmaritca.eval2_dsw21b"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVC-3p0Xz78sJuMjTWgYQfoOJV9Ap2CBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
