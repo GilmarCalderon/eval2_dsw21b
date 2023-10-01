@@ -87,7 +87,7 @@ context: context,
 builder: (context) {
 return AlertDialog(
 title: Text('Campos vacíos'),
-content: Text('Por favor, complete todos los campos.'),
+content: Text('Por favor, completar todos los campos obligatorios.'),
 actions: [
 TextButton(
 onPressed: () {
