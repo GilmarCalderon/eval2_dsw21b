@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "71997142740",
+    "project_id": "evaluaciooonn2",
+    "storage_bucket": "evaluaciooonn2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71997142740:android:10fdbde11062207f6c6d41",
+        "android_client_info": {
+          "package_name": "com.gilmaritca.evalu2_dsw21b"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ-ryWbjaREeSdeSewgLwcTwMABtgkww0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
