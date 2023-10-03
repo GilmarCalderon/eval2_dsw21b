@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042084811399",
+    "project_id": "eval-2dsw21b",
+    "storage_bucket": "eval-2dsw21b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042084811399:android:976b662c2ef94dec8e1e22",
+        "android_client_info": {
+          "package_name": "com.gilmaritca.eval2_dsw21b"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwq693NEKTiSevTRPTZCmOwHVXZvpNz60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
