@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712831838335",
+    "project_id": "evaluacion2-dsw21b",
+    "storage_bucket": "evaluacion2-dsw21b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712831838335:android:98dfb7ff8f9a307a95f74a",
+        "android_client_info": {
+          "package_name": "com.gilmaritca.evaluacion2_dsw21b"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwwZjqlTH06lfhc5C5r5N34huttcGqIlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
