@@ -1,6 +1,5 @@
-import 'package:eval2_dsw21b/models/crud.dart';
 import 'package:eval2_dsw21b/user_auth/firebase_auth_services.dart';
-import 'package:eval2_dsw21b/views/sing_up_auth.dart';
+import 'package:eval2_dsw21b/views/sign_up.dart';
 import 'package:eval2_dsw21b/widget/input_password.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +9,9 @@ import 'package:flutter/material.dart';
 
   @override
   State<LoginPage> createState() => _LoginPageState();
-}
+
+  }
+
 
   class _LoginPageState extends State<LoginPage> {
   final bool _isSigning = false;
@@ -63,7 +64,7 @@ import 'package:flutter/material.dart';
               const SizedBox(
                 height: 30,
               ),
-                InputPassword(
+                InputWidget(
                 controller: _passwordController,
                 hintText: 'Contrasena',
                 isPasswordField: true,
@@ -86,7 +87,8 @@ import 'package:flutter/material.dart';
                       child: Text(
                     "Login",
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
+                        color: Colors.white, fontWeight: 
+                        FontWeight.bold),
                   )),
                 ),
               ),
@@ -130,27 +132,6 @@ import 'package:flutter/material.dart';
     );
   }
 
-  /*void _signIn1() async {
-    String email = _emailController.text;
-    String password = _passwordController.text;
-
-    User? user = await _auth.signInWithEmailAndPassword(email, password);
-
-    if (user != null) {
-      print("LognIn Satisfactorio!!!");
-      Navigator.pushReplacementNamed(context, "/");
-    } else {
-    
-    }
-  }*/
- @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    getChat();
-
-
-  }
 
 
   void _signIn() async {

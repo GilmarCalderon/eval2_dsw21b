@@ -20,7 +20,7 @@ await db.collection('tb-categoria').add({"id": id, "nombre": nombre,
 "estado": estado});
 }
 Future<void> editCategoria(String id, String nombre, String estado) async {
-  await db.collection('tb-categoria').doc(id).update({"id": id, "nombre":
+await db.collection('tb-categoria').doc(id).update({"id": id, "nombre":
 nombre, "estado": estado});
 }
 Future<void> deleteCategoria(String id) async {

@@ -52,7 +52,7 @@ const SizedBox(
 height: 30,
 ),
 
-InputPassword(
+InputWidget(
 controller:_usernameController,
 hintText: "Nombre de Usuario",
 isPasswordField: false,
@@ -61,7 +61,7 @@ const SizedBox(
 height: 10,
 ),
 
-InputPassword(
+InputWidget(
   controller: _emailController,
   hintText: "Dirección de correo", 
   isPasswordField: false,
@@ -69,7 +69,7 @@ InputPassword(
 const SizedBox(
   height: 10,
 ),
-InputPassword(
+InputWidget(
   controller: _passwordController,
   hintText: "Contraseña",
   isPasswordField: true,

@@ -1,5 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import '../models/crud.dart';
+import 'package:quickalert/quickalert.dart';
 import '../views/about_us.dart';
 class Home extends StatefulWidget {
 const Home({
