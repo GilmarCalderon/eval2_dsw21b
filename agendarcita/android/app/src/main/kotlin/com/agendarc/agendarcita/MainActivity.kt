@@ -1,0 +1,6 @@
+package com.agendarc.agendarcita
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
